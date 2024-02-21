@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.making calculator</title>
+    
+</head>
+<body>
+    <H>This is calculator</H>
+    <form Name="calculator">
+        <input type="text" name="display"><br>
+        <input type="button" value="9" name="btn9" onclick="displaydata(9)">
+        <input type="button" value="8" name="btn8" onclick="displaydata(8)">
+        <input type="button" value="7" name="btn7" onclick="displaydata(7)"> 
+        <input type="button" value="6" name="btn6" onclick="displaydata(6)"> 
+        <input type="button" value="5" name="btn5" onclick="displaydata(5)"> 
+        <input type="button" value="4" name="btn4" onclick="displaydata(4)"> 
+        <input type="button" value="3" name="btn3" onclick="displaydata(3)"> 
+        <input type="button" value="2" name="btn2" onclick="displaydata(2)">
+        <input type="button" value="1" name="btn1" onclick="displaydata(1)">
+        <input type="button" value="0" name="btn0" onclick="displaydata(0)">
+
+          <input type="button" value="+" name="btnplus" onclick="displaydata('+')">
+          <input type="button" value="="onclick="result()">
+        
+    </form>
+    <script>
+        function displaydata(a){
+            calculator.display.value= calculator.display.value+a;
+        }
+            function result()
+            {
+                calculator.display.value=eval(calculator.display.value);
+            }
+     
+            
+       
+   
+
+    </script>
+    
+</body>
+</html>
