@@ -1,0 +1,30 @@
+/* CSS code for the form */
+.form-group {
+    margin: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input, select, textarea {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+  }
+  
+  button {
+    display: block;
+    width: 100px;
+    margin-left: 100px;
+  }
+
+  body{
+    background-color: rgb(240, 221, 153);
+    center
+  }
+  
