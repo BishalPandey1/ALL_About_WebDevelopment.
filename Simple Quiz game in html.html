@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Quiz</title>
+</head>
+<body>
+    <h1>Computer Quiz</h1>
+    <form id="quiz-form">
+        <p><strong>Question 1:</strong> What does CPU stand for?</p>
+        <input type="radio" name="answer_0" value="A"> A) Central Processing Unit<br>
+        <input type="radio" name="answer_0" value="B"> B) Computer Peripheral Unit<br>
+        <input type="radio" name="answer_0" value="C"> C) Control Processing Unit<br>
+        <input type="radio" name="answer_0" value="D"> D) Central Peripheral Unit<br>
+        <br>
+        <p><strong>Question 2:</strong> What is the binary representation of the decimal number 10?</p>
+        <input type="radio" name="answer_1" value="A"> A) 1010<br>
+        <input type="radio" name="answer_1" value="B"> B) 1100<br>
+        <input type="radio" name="answer_1" value="C"> C) 1001<br>
+        <input type="radio" name="answer_1" value="D"> D) 1110<br>
+        <br>
+        <p><strong>Question 3:</strong> What does RAM stand for?</p>
+        <input type="radio" name="answer_2" value="A"> A) Random Access Memory<br>
+        <input type="radio" name="answer_2" value="B"> B) Read-Only Memory<br>
+        <input type="radio" name="answer_2" value="C"> C) Real-time Application Module<br>
+        <input type="radio" name="answer_2" value="D"> D) Remote Access Module<br>
+        <br>
+        <p><strong>Question 4:</strong> What is the purpose of an operating system?</p>
+        <input type="radio" name="answer_3" value="A"> A) Manage hardware resources and provide an interface for users<br>
+        <input type="radio" name="answer_3" value="B"> B) Execute application programs<br>
+        <input type="radio" name="answer_3" value="C"> C) Store data files<br>
+        <input type="radio" name="answer_3" value="D"> D) Control internet access<br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById("quiz-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const correctAnswers = ["A", "A", "A", "A"]; // Correct answers for each question
+            let score = 0;
+
+            for (let i = 0; i < correctAnswers.length; i++) {
+                const selectedAnswer = document.querySelector(`input[name="answer_${i}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[i]) {
+                    score++;
+                }
+            }
+
+            const totalQuestions = correctAnswers.length;
+            const resultMessage = `You got ${score} out of ${totalQuestions} correct!`;
+            alert(resultMessage);
+        });
+    </script>
+</body>
+</html>
