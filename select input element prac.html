@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="server">
+    <div>
+    <li>Q.no 1 which one is the best fruit of the Bishal Pandey?</li>
+    <ol>
+        <li>
+    <input type="radio" id="govha" name="fruit" value="govha">
+    <label for="govha">Govha</label>
+        </li>
+        <li>
+    <input type="radio" id="mango" name="fruit">
+    <label for="mango">Mango</label>
+        </li>  
+        <li>
+    <input type="radio" id="orange"  name="fruit">
+    <label for="orange">orange</label>
+        </li>
+        <li>
+    <input type="radio" id="apple"  name="fruit">
+    <label for="aplle">apple</label>  
+        </li>
+    </ol> 
+    </div>
+    <button type="submit">Submit</button>
+    <div>
+        <form action="server">
+            <input type="checkbox" id="m">
+            <lable>This is checkbox</lable>
+            <input type="checkbox" id="m">
+            <lable>This is checkbox</lable>
+            <input type="checkbox" id="m">
+            <lable>This is checkbox</lable>
+            <input type="checkbox" id="m">
+            <lable>This is checkbox</lable>
+            <button>submit</button>
+        </form>
+    </div>
+</form>
+<form action="server">
+    <div>
+        choose you profession
+        <select name="profession" id="profession">
+        <option selected>Select from here</option>
+        <option value="student" >students</option>
+        <option value="dev">Developer</option>
+        <option value="extra">else</option>
+        </select>
+    which tradition do you follw:
+    <select name="religion" id="pro">
+        <option value="">Select Our religion</option>
+        <option value="Hindu">Hindu</option>
+        <option value="muslim">MUslim</option>
+        <option value="christan">Christan</option>
+        <option value="oth">other</option>
+    </select>    
+    <button>submit</button>
+    </div>
+</form>
+<div>
+    <form action="server">
+        <label for="vol">Select you volume</label>
+        <input type="range" id="vol" min="0" max="100" name="volume" step="10" value="10">
+        <button type="submit">submit</button>    
+    </form>
+</div>
+<div>
+    <form action="server">
+        <label for="so">Select you volume</label>
+        <input type="range" id="this" min="100" max="1000" name="sound volume" step="200" >
+        <button>submit</button>
+    </form>
+</div>
+</body>
+</html>
