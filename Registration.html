@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: rgb(242, 18, 18);
+        }
+        button{
+            background: rgb(212, 56, 56);
+        }
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            background-color : rgb(12, 240, 77);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Registration Form</h1>
+    </center>    
+    <form action="action">
+        <div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name"><br>
+            <label for="num">Enter you phone number:</label>
+            <input type="number" id="num" placeholder="phone number"><br>
+            <label for="BOD">Enter you Birth of Date:</label>
+            <input type="date" id="BOD"><br>
+            <label for="address">Your perment Address:</label>
+            <input type="address" id="address" placeholder="Address">
+        <div>
+        <h>Please choose you Gender</h>
+        <select name="prof" id="gen">
+            <option value="male">Male</option>
+            <option value="male">Female</option>
+        </select>
+        </div>
+        <div>
+            <h>Do you agree to all terms of service?</h>
+            <ul>
+                <li>YOU HAVE TO FOLLW ALL RULES OF FORM.</li>
+                <li>YOU HAVE TO GIVE ALL THE DATA PERFECTLY.</li>
+            </ul>
+            <input type="checkbox" id="agree">
+            <label for="agree">Yes i do.</label>
+        </div>
+        <div>
+        <lable for="fb">Extra feedback</lable>
+        <textarea name="feedback" placeholder="write here" id="fb" cols="30" rows="20"></textarea>
+        </div> 
+        <button type="submit">Register</button>
+    </form>
+    <footer>
+        <center>
+        <h>**Thank YOU**</h>
+        </center>
+    </footer>
+</body>
+</html>
