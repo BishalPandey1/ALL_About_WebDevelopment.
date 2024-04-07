@@ -1,0 +1,20 @@
+body{
+    background-color:aliceblue;
+    border: solid rgb(118, 197, 171);
+    color:rgb(50,50,50)    
+}
+h1{
+    background-color:rgb(0, 223, 0);
+    text-align:center;
+    text-decoration: underline;
+    
+}
+p{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    background-color:rgb(0,223,0);
+}
+form{
+    font-weight: bold;
+}
