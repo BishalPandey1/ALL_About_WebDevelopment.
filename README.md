@@ -1,7 +1,7 @@
  <h1># ALL_About_WebDevelopment.</h1>
 Author-Bishal Pandey <br>
 learning about the web development.
-<P>some extar details:</P>
+<P>some extra details:</P>
 <div>
 <ul>
  <li>This is all about web Development releated course.</li>
