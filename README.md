@@ -1,5 +1,5 @@
  <h1># ALL_About_WebDevelopment.</h1>
-Author-<u> Bishal Pandey</u><br>
+Author-<u>Bishal Pandey</u> <br>
 learning about the web development.
 <P>some extra details:</P>
 <div>
