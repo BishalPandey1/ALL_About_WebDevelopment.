@@ -1,0 +1,27 @@
+*{
+    font-family:arial;
+    color:rgb(0, 0, 0);
+    background-color:aliceblue;
+}
+h3{
+    color:purple;
+
+}
+h3,h1{
+    color:#b92b27;
+}
+#login{
+    background-color: rgb(88, 77, 77);
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+.upput{
+    color:rgb(17, 220, 27);
+} 
+#myid{
+    p{
+        background-color:red;
+    }
+}
