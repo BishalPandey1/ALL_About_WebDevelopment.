@@ -1,0 +1,104 @@
+ *{
+    font-family:arial;
+    color:rgb(0, 0, 0);
+    background-color:aliceblue;
+}
+h3{
+    color:purple;
+
+}
+h3,h1{
+    color:#b92b27;
+}
+#login{
+    background-color: rgb(88, 77, 77);
+}
+#signup{
+    background-color: #b92b27;
+    color:white;
+}
+.upput{
+    color:rgb(17, 220, 27);
+} 
+#myid{
+    p{
+        background-color:red;
+    }
+}
+span p{
+    color:red;
+}
+span  ul{
+    color:blue;
+
+}
+span li{
+    color:rgb(134, 82, 62);
+}
+p a{
+    background-color: rgb(110, 169, 110);
+}
+nav ul li a{
+    color:rgb(179, 57, 77);
+}
+P + h3{
+    background-color: bisque;
+    text-decoration: red underline;
+}
+form{
+    border: red solid;
+    text-shadow: #b92b27;
+}
+div>input{
+    background-color: darksalmon;
+
+} 
+input[ type="password"] { 
+ color:rgb(255, 0, 0);
+}
+input[type="text"] {
+    color:green;
+}
+button:hover{
+    background-color: gold;
+    color: mediumturquoise;
+}
+h3:hover{
+    color:red;
+    background-color: brown;
+}
+form:hover{
+    background-color: gray;
+    text-decoration: underline red;
+}
+input:hover{
+    color:red;
+}
+button:active{
+    background-color: palevioletred;
+    color:rgb(255, 255, 255);
+}
+body:active{
+    text-decoration:double;
+}
+input[type="radio"]:checked+ label{
+    color:red;
+    font-weight: bold ;
+}  
+button:hover{
+    background-color: red;
+    text-decoration:underline;
+    font-weight: 900;
+    color:rgb(4, 4, 4);
+    letter-spacing: 10px;
+}
+p:nth-of-type(n){
+    color:rgb(5, 5, 5);
+    background-color: green;
+}
+button:active{
+    font-size: larger;
+}
+h1::first-letter{
+    color:green;
+}
