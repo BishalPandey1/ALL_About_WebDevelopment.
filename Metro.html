@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color:#dbfacd;
+        }
+        h2{
+            text-decoration: double;
+            text-decoration: underline rgb(74, 128, 74);
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], select {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #312d2d;
+            border-radius: 4px;
+        }
+        input[type="number"], select {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #312d2d;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #0074D9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005ea6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center; color: #1e201f;">Apply for Metro Card</h2>
+        <form action="process_form.php" method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="number" id="phonenumber" name="phonenumber" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
