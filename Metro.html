@@ -71,9 +71,27 @@
             border-radius: 4px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0);
+        }
+        input[type="reset"] {
+            background-color: #0074D9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0);
         }
 
         input[type="submit"]:hover {
+            background-color: #005ea6;
+        }
+        input[type="reset"]:hover {
             background-color: #005ea6;
         }
     </style>
@@ -100,8 +118,8 @@
 
             <label for="dob">Date of Birth:</label>
             <input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
-
             <input type="submit" value="Submit">
+            <input type="reset" Value="Reset">
         </form>
     </div>
     <footer>
