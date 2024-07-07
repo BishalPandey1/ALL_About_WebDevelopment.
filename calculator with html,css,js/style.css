@@ -1,8 +1,21 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    background-color: #ddd;
 
   }
+  h1{
+    text-decoration: double;
+    text-align: center;
+    color:rgb(37, 22, 22);
+    background-color: rgb(132, 221, 132);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    max-width: 70%;
+    margin: 60px auto;
+    padding: 20px auto;  
+}
   
   .calculator {
     background-color: black;
@@ -68,3 +81,9 @@
       grid-row: span 3;
       color: #fff;
   }
+  .reset {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+  
