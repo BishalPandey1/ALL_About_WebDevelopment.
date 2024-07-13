@@ -1,3 +1,7 @@
+*{
+    background-color:white;
+    text-decorator:large;
+}
 .form-group {
     margin: 10px;
   }
