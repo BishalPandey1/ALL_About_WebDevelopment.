@@ -1,8 +1,11 @@
 *{
     background-color:white;
-    text-decorator:large;
+    text-decoration: double;
 }
-.form-group {
+ h1{
+    background-color: green;
+    }
+  .form-group {
     margin: 10px;
   }
   
@@ -28,6 +31,5 @@
 
   body{
     background-color: rgb(240, 221, 153);
-    center
+    border: solid;
   }
-  
