@@ -1,4 +1,5 @@
- <h1># ALL_About_WebDevelopment.</h1>
+ <h1># ALL_About_WebDevelopment.</h1><hr>
+ <table>
 Author-BishalPandey<br>
 learning about the web development.
 <P>some extra details:</P>
@@ -15,3 +16,4 @@ learning about the web development.
 </ul>
 <P>**Thank YOU** </P>
 </footer>
+</table>
