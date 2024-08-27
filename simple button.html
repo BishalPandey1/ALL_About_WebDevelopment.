@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>  
+      /* Advanced button styles */  
+     .magic-button {  
+        padding: 10px 20px;  
+        background: linear-gradient(45deg, #0074D9, #FF4136);  
+        color: #FFF;  
+        border: 2px solid transparent;  
+        border-image: linear-gradient(45deg, #FF4136, #0074D9);  
+        border-image-slice: 1;  
+        cursor: pointer;  
+        transition: transform 0.3s ease, box-shadow 0.3s ease;  
+        animation: pulse 2s infinite alternate;  
+        font-size: 18px;  
+        font-weight: bold;  
+        border-radius: 10px;  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+      }  
+  
+      /* Hover effect */  
+     .magic-button:hover {  
+        transform: scale(1.05);  
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+      }  
+  
+      /* Pulse animation */  
+      @keyframes pulse {  
+        from {  
+           transform: scale(1);  
+        }  
+        to {  
+           transform: scale(1.1);  
+        }  
+      }  
+  
+      /* Active state */  
+     .magic-button:active {  
+        transform: scale(0.95);  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+      }  
+  
+      /* Focus state */  
+     .magic-button:focus {  
+        outline: none;  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+      }  
+   </style>  
+</head>
+<body>
+    <button class="magic-button">Click me!</button>
+
+    <script>
+        // Optional: Add JavaScript functionality here
+        // For example, handle button clicks or other interactions
+    </script>
+</body>
+</html>
