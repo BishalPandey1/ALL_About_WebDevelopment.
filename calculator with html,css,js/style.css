@@ -84,6 +84,44 @@
   .reset {
     background-color: #ffffff;
     color: #000000;
-}
-
+}  
+      .magic-button {  
+        padding: 10px 20px;  
+        background: linear-gradient(45deg, #0074D9, #FF4136);  
+        color: #FFF;  
+        border: 2px solid transparent;  
+        border-image: linear-gradient(45deg, #FF4136, #0074D9);  
+        border-image-slice: 1;  
+        cursor: pointer;  
+        transition: transform 0.3s ease, box-shadow 0.3s ease;  
+        animation: pulse 2s infinite alternate;  
+        font-size: 18px;  
+        font-weight: bold;  
+        border-radius: 10px;  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+      }  
+  
+     .magic-button:hover {  
+        transform: scale(1.05);  
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+      }  
+  
+      @keyframes pulse {  
+        from {  
+           transform: scale(1);  
+        }  
+        to {  
+           transform: scale(1.1);  
+        }  
+      }  
+  
+     .magic-button:active {  
+        transform: scale(0.95);  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+      }  
+  
+     .magic-button:focus {  
+        outline: none;  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+      }  
   
