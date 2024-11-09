@@ -62,5 +62,4 @@ function updateLaps() {
 startStopBtn.addEventListener('click', startStopTimer);
 lapBtn.addEventListener('click', addLap);
 resetBtn.addEventListener('click', resetTimer);
-
 updateTime();
