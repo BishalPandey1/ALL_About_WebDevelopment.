@@ -58,7 +58,6 @@ function updateLaps() {
         lapsList.appendChild(lapElement);
     });
 }
-
 startStopBtn.addEventListener('click', startStopTimer);
 lapBtn.addEventListener('click', addLap);
 resetBtn.addEventListener('click', resetTimer);
