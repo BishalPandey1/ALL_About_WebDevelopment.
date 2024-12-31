@@ -1,3 +1,8 @@
+*{
+    font-size: large;
+    backgroun-color: rgb(12,223,23);
+}
+
 body{
     background-color:aliceblue;
     border: solid rgb(118, 197, 171);
